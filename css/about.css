@@ -1,0 +1,43 @@
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+}
+
+.title-despre {
+  height: 50vh;
+  color: var(--text-light);
+  background-color: var(--bg-primary);
+  margin-bottom: 7rem;
+}
+
+.title-despre h1 {
+  margin-top: 100px;
+  font-size: 50px;
+}
+
+.card img {
+  border-radius: 50%;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: -50px;
+  filter: grayscale(100%);
+}
+.trainer-name {
+  background-color: var(--bg-primary);
+  margin-top: -30px;
+  padding: 7px 0px 7px 0px;
+  opacity: 80%;
+  color: var(--text-secondary);
+}
+
+.card-text {
+  font-size: 0.85rem;
+}

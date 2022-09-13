@@ -1,0 +1,57 @@
+/* update css */
+
+:root {
+  --text-primary: #101d42;
+  --text-secondary: #fbb44c;
+  --text-dark: #2b2922;
+  --text-light: #eaeaea;
+  --text-white: #ffffff;
+  --bg-primary: #141e4c;
+  --bg-secondary: #dfedf5;
+  --bg-dark: #101d42;
+  --bg-light: #ffffff;
+  --button-color: #2bb686;
+}
+
+body {
+  font-family: "Poppins", sans-serif;
+}
+.itschool-bg-primari {
+  background-color: var(--bg-primary);
+}
+
+nav .navbar-brand img {
+  height: 60px;
+  width: auto;
+}
+
+nav .navbar-nav .nav-item .nav-link,
+nav .navbar-nav .dropdown-item {
+  text-transform: uppercase;
+  color: var(--text-light);
+}
+
+nav .navbar-nav .nav-item .nav-link:hover,
+nav .navbar-nav .dropdown-item:hover {
+  text-transform: uppercase;
+  color: var(--text-secondary);
+}
+
+nav .navbar-nav .dropdown-menu {
+  background-color: var(--bg-dark);
+}
+
+header {
+  position: fixed;
+  z-index: 1;
+}
+
+footer {
+  font-size: 12px;
+  background-color: #101d42;
+  color: #dfedf5;
+  height: 80px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

@@ -1,0 +1,89 @@
+.div-selector {
+  color: red;
+}
+
+.welcome-banner {
+  height: 100vh;
+  /* background-color: rgba(16, 45, 176, 0.751); */
+  background-image: linear-gradient(
+      rgba(30, 85, 156, 0.642),
+      rgba(30, 85, 156, 0.626)
+    ),
+    url(../images/ambulanta-home.jpg);
+  background-position: center;
+  background-size: cover;
+}
+
+.location-span {
+  background-color: #fbb443;
+  padding: 5px;
+}
+
+.card-body {
+  margin-top: 15px;
+  margin-bottom: 8px;
+  margin-left: 5px;
+  margin-right: 5px;
+  border-bottom: 3px solid #2bb686;
+  border-width: 80%;
+}
+.img-section {
+  background-color: #f3f4f5;
+}
+
+.parteneri .img-fluid {
+  filter: grayscale(100%);
+  height: 50px;
+  width: auto;
+  margin-bottom: 2rem;
+}
+.parteneri .img-fluid:hover {
+  filter: grayscale(0%);
+}
+
+.color-orange {
+  color: #fbb443;
+}
+
+.certification-logo img {
+  height: 25px;
+  width: auto;
+  margin: 0px 10px 0 0;
+}
+.licente img {
+  height: 25px;
+  width: auto;
+  padding: 5px;
+  box-sizing: content-box;
+}
+/* .certificari-line img {
+  box-sizing: content-box;
+  height: 25px;
+  margin-right: 10px;
+  padding: 10px;
+  display: inline-block;
+} */
+
+.hover-btn {
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  display: inline-block;
+  background-color: #2bb686;
+  padding: 20px 40px 20px 40px;
+  text-decoration: none;
+  color: #eaeaea;
+  border-radius: 5px;
+  margin-top: 20px;
+  border: 2px solid #2bb686;
+}
+
+.hover-btn:hover {
+  background-color: #101d42;
+  color: #eaeaea;
+}
+/* @media screen and (max-width: 480px) {
+  .hover-btn {
+    display: none;
+  }
+} */
